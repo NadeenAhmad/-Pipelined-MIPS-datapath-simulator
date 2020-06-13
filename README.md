@@ -9,8 +9,6 @@
            * Control flow: beq  
            * Comparison: slt, sltu  
 * The pipeline consists of the same five stages discussed in lectures (ID, IF, EXE,MEM and WB).
-* This datapath does not detect or handle hazards at all, which means that the
-input program has to be hazard-free to produce correct results.
 * The register file consists of the 32 registers including the $zero register. Register 0 always contains the value 0.
 * The simulator shows the content (decimal and/or hexadecimal) of all the fields of the pipeline registers (PC, IF/ID, ID/EX, EX/MEM, and MEM/WB) including control signals at each clock cycle.
 
